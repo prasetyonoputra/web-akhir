@@ -1,0 +1,188 @@
+
+body {
+    /* background-image: url("../../src/images/blackboard-background.jpg"); */
+    background-image: url("../../src/images/background/Pokemon-Wallpaper-4K-High-Resolution.jpg");
+    background-size: auto;
+}
+
+.box-container {
+    border-style: solid;
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border-style: solid;
+    /* width: 20%; */
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: rgb(179 173 173 / 30%);
+    border-radius: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+a:link { text-decoration: none; color:white }
+a:visited { text-decoration: none; color:white }
+a:hover { text-decoration: none; color:white }
+a:active { text-decoration: none; color:white }
+
+  *:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-form {
+    width: 50%;
+    padding: 20px;
+}
+
+.data-gambar {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+ }
+
+form {
+    height: 1050px;
+    width: 70%;
+    background-color: rgb(255 255 255 / 13%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 20px 35px 50px 35px;
+    margin: 200px 0px 200px 0px;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #d1b2b2;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    font-style: normal;
+}
+
+form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    height: 50px;
+    width: 95%;
+    background-color: rgb(255 255 255 / 7%);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+textarea{
+    height: 200px;
+    width: 95%;
+    background-color: rgb(255 255 255 / 7%);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input[type='checkbox'] {
+    height: 5%;
+    width: 5%;
+    margin: 0px 0px 0px 0px;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+button {
+    margin-top: 5%;
+    width: 100%;
+    background-color: #b78989;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+} */
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px;
+    background-color: #394e4a;
+    color: white;
+}
+
+.styled-table tbody tr {
+    border: 4px solid #5a3d3d;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.btn-deskripsi {
+    height: 40px;
+    background-color: rgb(255 255 255 / 7%);
+    border-radius: 10px;
+    margin: 1px;
+    border: none;
+}
