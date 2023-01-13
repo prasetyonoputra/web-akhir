@@ -21,7 +21,7 @@ if( isset($_POST["submit"]) ) {
 	if( ubahPokemon($_POST) > 0 ) {
 		echo "
 			<script>
-				alert('Data berhasil diubah!');
+				// alert('Data berhasil diubah!');
 				document.location.href = 'index-page.php';
 			</script>
 		";

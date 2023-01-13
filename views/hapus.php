@@ -13,7 +13,7 @@ $id = $_GET["id"];
 if( hapusPokemon($id) > 0 ) {
 	echo "
 		<script>
-			alert('Data berhasil dihapus!');
+			// alert('Data berhasil dihapus!');
 			document.location.href = 'index-page.php';
 		</script>
 	";

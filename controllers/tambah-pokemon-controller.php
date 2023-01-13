@@ -15,7 +15,7 @@ if( isset($_POST["submit"]) ) {
 	if( tambahPokemon($_POST) > 0 ) {
 		echo "
 			<script>
-				alert('data berhasil ditambahkan!');
+				// alert('data berhasil ditambahkan!');
 				document.location.href = 'index-page.php';
 			</script>
 		";

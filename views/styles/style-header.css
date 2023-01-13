@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #345050a1;
+    border-radius: 20px;
+}
+
+.header a {
+    background-color: rgb(157 125 125 / 73%);
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    color: #c7d1d9;
+}
+
+.header-blank {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-blank a {
+    background-color: rgb(157 125 125 / 73%);
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    color: #c7d1d9;
+}
+
+.headerBox h3{
+    font-size: 50px;
+    margin: 0;
+    color: #fdffffa1;
+}
