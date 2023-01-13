@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "db_tugas_besar_web");
+$conn = mysqli_connect("localhost", "root", "", "pokemon_db");
 
 function query($query) {
 	global $conn;

@@ -46,8 +46,7 @@
                     <input type="text" placeholder="" name="type" id="type" value="<?= $pokemon["tipe"]; ?>" disabled>
 
                     <label for="deskripsi">Deskripsi Pokemon :</label>
-                    <textarea name="deskripsi" id="deskripsi" cols="40" rows="1000000"
-                        disabled><?= $pokemon["deskripsi"]; ?></textarea>
+                    <textarea name="deskripsi" id="deskripsi" cols="40" rows="1000000" disabled><?= $pokemon["deskripsi"]; ?></textarea>
 
                     <label for="hitpoint">Hitpoint Pokemon :</label>
                     <input type="number" name="hitpoint" id="hitpoint" value="<?= $pokemon["hitpoint"]; ?>" disabled>
@@ -57,7 +56,7 @@
                 </div>
 
                 <div class="data-gambar">
-                    <img src="../src/images/pokemon/<?= $pokemon['gambar']; ?>" height="500px" />
+                    <img src="../src/images/pokemon/<?= $pokemon['gambar']; ?>" height="500px" onclick="playSound('<?= $pokemon['nama']; ?>')"/>
                 </div>
             </div>
             <div class="btn-a">
@@ -91,12 +90,16 @@
     </div>
 
     <script>
-        let imageButton = document.getElementById("gambar");
-        let imageUpload = document.getElementById("image-upload");
-        imageButton.onchange = evt => {
-            const [file] = imageButton.files
-            if (file) {
-                imageUpload.src = URL.createObjectURL(file);
+        function playSound(nama) {
+            var req = new XMLHttpRequest();
+            req.open('GET', "../src/sound/" + nama.toLowerCase() + ".mp3", false);
+            req.send();
+
+            if (req.status == 200) {
+                const audio = new Audio("../src/sound/" + nama.toLowerCase() + ".mp3");
+                audio.play();
+            } else {
+                alert(`Audio ${nama} tidak tersedia`);
             }
         }
     </script>

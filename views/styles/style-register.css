@@ -6,8 +6,7 @@
 }
 
 body {
-    /* background-image: url("../../src/images/blackboard-background.jpg"); */
-    background-image: url("../../src/images//background/Pokemon-Wallpaper-4K-Desktop.jpg");
+    background-image: url("../../src/images//background/Pokemon-Wallpaper-4K-High-Resolution.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
@@ -61,7 +60,7 @@ label {
 input[type='text'], input[type='password'] {
     height: 50px;
     width: 95%;
-    background-color: rgb(143 18 18 / 7%);
+    background-color: rgb(66 23 23 / 58%);
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
@@ -82,7 +81,7 @@ input[type='checkbox'] {
 button {
     margin-top: 5%;
     width: 100%;
-    background-color: #646060;
+    background-color: #c97070;
     color: #ffffff;
     padding: 15px 0;
     font-size: 18px;

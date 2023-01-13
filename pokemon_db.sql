@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Jan 2023 pada 12.28
+-- Waktu pembuatan: 13 Jan 2023 pada 10.42
 -- Versi server: 10.4.25-MariaDB
 -- Versi PHP: 7.4.30
 
@@ -42,8 +42,14 @@ CREATE TABLE `pokemon` (
 --
 
 INSERT INTO `pokemon` (`id`, `nama`, `gambar`, `deskripsi`, `tipe`, `hitpoint`, `damage`) VALUES
-(1, 'Pikachu', 'pikachu.png', 'Pikachu adalah karakter fiksi dan salah satu spesies dalam waralaba media Pokémon yang dimiliki oleh Nintendo dan Game Freak. Dirancang oleh Atsuko Nishida dan Ken Sugimori, Pikachu pertama kali muncul dalam permainan video Pocket Monsters: Red and Green pada tahun 1996.[b] Pikachu adalah makhluk berwarna kuning yang menyerupai tikus dengan kemampuan listrik. Ia adalah karakter utama dalam semesta Pokémon, bertugas sebagai maskot waralaba dan juga sebagai maskot utama untuk Nintendo.\r\nPikachu secara luas dianggap sebagai spesies Pokémon paling populer dan terkenal, sebagian besar karena kemunculannya dalam anime Pokémon sebagai pendamping protagonis Ash Ketchum. Dalam penampilan suaranya secara umum, Pikachu disulihsuarakan oleh Ikue Ōtani. Dalam versi lainnya, ia disulihsuarakan oleh Ryan Reynolds dalam film animasi peran hidup Pokémon: Detective Pikachu. Pikachu telah diterima dengan baik oleh para kritikus, dengan pujian khusus diberikan karena kelucuannya, dan telah dianggap sebagai ikon budaya pop Jepang.', 'Listrik', 3, 4),
-(5, 'qwe', 'bulbasaur.png', 'asd', 'asd', 123, 123);
+(1, 'Pikachu', 'pikachu.png', 'Pikachu yang dapat menghasilkan listrik berkekuatan tinggi memiliki kantong pipi yang lunak dan mudah melar.', 'Listrik', 3, 4),
+(6, 'Bulbasaur', 'bulbasaur.png', 'Bulbasaur dapat ditemukan tidur siang di bawah sinar matahari. Dengan mandi banyak sinar matahari, benih di punggungnya tumbuh makin besar.', 'Rumput', 5, 10),
+(7, 'Plusle', 'pulse.png', 'Plusle selalu bertindak sebagai pemandu sorak bagi rekan-rekannya. Setiap kali ada anggota timnya yang berusaha baik di dalam pertempuran, Pokémon ini memendekkan tubuhnya dan menciptakan suara gemeretak bunga api untuk menunjukkan kegembiraannya.', 'Listrik', 3, 2),
+(8, 'Totodile', 'totodile.png', 'Walaupun tubuhnya kecil, rahangnya sangat kuat. Meskipun Totodile hanya bermaksud menggigit pelan, kekuatan gigitannya dapat menyebabkan cedera serius.', 'Air', 10, 10),
+(9, 'Piplup', 'piplup.png', 'Piplup tidak suka diurus. Sulit untuk menjalin ikatan dengannya karena Pokémon ini tidak menuruti instruksi pelatihnya.', 'Air', 2, 2),
+(10, 'Pachirisu', 'pachirisu.png', 'Pachirisu menyimpan bola bulu yang gemeretak karena bermuatan listrik statis bersama dengan buah beri kesukaannya di dalam lubang pohon.', 'Normal', 1, 5),
+(11, 'Chikorita', 'chikorita.png', 'Di dalam pertempuran, Chikorita melambai-lambaikan daunnya untuk menghalau lawan-lawannya. Tetapi, daun tersebut juga menghasilkan wangi yang semerbak, yang dapat menenangkan Pokémon-Pokémon yang sedang bertempur dan menciptakan suasana yang tenang dan bersahabat.', 'Rumput', 4, 2),
+(13, 'Mudkip', 'mudkip.png', 'Sirip di kepala Mudkip berfungsi sebagai radar yang sangat sensitif. Dengan menggunakan siripnya untuk merasakan gerakan air dan udara, Pokémon ini dapat menentukan apa yang terjadi di sekitarnya tanpa menggunakan matanya.', 'Air', 6, 2);
 
 -- --------------------------------------------------------
 
@@ -88,7 +94,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `pokemon`
 --
 ALTER TABLE `pokemon`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
