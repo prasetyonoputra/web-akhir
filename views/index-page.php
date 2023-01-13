@@ -16,9 +16,9 @@ require '../controllers/index-controller.php';
 </head>
 
 <body>
-    <h1>Ini Index</h1>
     <a href="logout.php" class="logout">Logout</a>
-    <a href="cetak.php" target="_blank">Cetak</a>
+    <a href="../cetak.php" target="_blank">Cetak</a>
+
     <div class="box-form">
     <form action="" method="post" class="form-cari">
         <input type="text" id="keyword" name="keyword" size="40" autofocus placeholder="Cari Pokemon" autocomplete="off">
