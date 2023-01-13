@@ -24,12 +24,12 @@ require '../controllers/index-controller.php';
     </div>
 
     <div class="box-form">
-    <form action="" method="post" class="form-cari">
-        <input type="text" id="keyword" name="keyword" size="40" autofocus placeholder="Cari Pokemon" autocomplete="off">
-        <div class="buttonHolder">
-            <input type="submit" name="cari" id="tombolCari" value="Cari" disabled>
-        </div>
-    </form>
+        <form action="" method="post" class="form-cari">
+            <input type="text" id="keyword" name="keyword" size="40" autofocus placeholder="Cari Pokemon" autocomplete="off">
+            <div class="buttonHolder">
+                <input type="submit" name="cari" id="tombolCari" value="Cari" disabled>
+            </div>
+        </form>
     </div>
 
     <div class="box-container" id="container">
