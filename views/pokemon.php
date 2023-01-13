@@ -42,5 +42,30 @@ $allPokemon = query($query);
     <?php endforeach; ?>
     
     <div class="box">
-        <a href="tambah-pokemon.php">Tambah</a>
+            <table width="80%" class="styled-table">
+                <tr>
+                    <td><img src="../src/images/pokemon/pokeball.png"
+                            height="200px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>-</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <div class="btn-deskripsi">
+                            <div style="padding-top:12px;">
+                                <a href="tambah-pokemon.php">Tambah</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </div>
     </div>

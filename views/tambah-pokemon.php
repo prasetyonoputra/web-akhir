@@ -25,19 +25,19 @@
         <div class="form-container">
             <div class="data-form">
                 <label for="nama">Nama Pokemon:</label>
-                <input type="text" placeholder="" name="nama" id="nama">
+                <input type="text" placeholder="" name="nama" id="nama" autocomplete="off">
 
                 <label for="tipe">Type Pokemon:</label>
-                <input type="text" placeholder="" name="tipe" id="tipe">
+                <input type="text" placeholder="" name="tipe" id="tipe" autocomplete="off">
 
                 <label for="deskripsi">Deskripsi Pokemon :</label>
                 <textarea name="deskripsi" id="deskripsi" cols="40" rows="1000000"></textarea>
 
                 <label for="hitpoint">Hitpoint Pokemon :</label>
-                <input type="number" name="hitpoint" id="hitpoint">
+                <input type="number" name="hitpoint" id="hitpoint" autocomplete="off">
 
                 <label for="damage">Damage Pokemon :</label>
-                <input type="number" name="damage" id="damage">
+                <input type="number" name="damage" id="damage" autocomplete="off">
             </div>
 
             <div class="data-gambar">

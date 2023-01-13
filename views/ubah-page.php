@@ -38,10 +38,10 @@
                 <textarea name="deskripsi" id="deskripsi" cols="40" rows="1000000"><?= $pokemon["deskripsi"]; ?></textarea>
 
                 <label for="hitpoint">Hitpoint Pokemon :</label>
-                <input type="number" name="hitpoint" id="hitpoint" value="<?= $pokemon["hitpoint"]; ?>">
+                <input type="number" name="hitpoint" id="hitpoint" value="<?= $pokemon["hitpoint"]; ?>" autocomplete="off">
 
                 <label for="damage">Damage Pokemon :</label>
-                <input type="number" name="damage" id="damage" value="<?= $pokemon["damage"]; ?>">
+                <input type="number" name="damage" id="damage" value="<?= $pokemon["damage"]; ?>" autocomplete="off">
             </div>
 
             <div class="data-gambar">

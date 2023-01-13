@@ -19,6 +19,10 @@ require '../controllers/index-controller.php';
     <a href="logout.php" class="logout">Logout</a>
     <a href="../cetak.php" target="_blank">Cetak</a>
 
+    <div class="header">
+        <center><img src="../src/images/pokemon/logo.png" alt="Logo" width="500px"></center>
+    </div>
+
     <div class="box-form">
     <form action="" method="post" class="form-cari">
         <input type="text" id="keyword" name="keyword" size="40" autofocus placeholder="Cari Pokemon" autocomplete="off">
@@ -60,7 +64,31 @@ require '../controllers/index-controller.php';
         <?php endforeach; ?>
 
         <div class="box">
-            <a href="tambah-pokemon.php">Tambah</a>
+            <table width="80%" class="styled-table">
+                <tr>
+                    <td><img src="../src/images/pokemon/pokeball.png"
+                    height="200px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>-</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <div class="btn-deskripsi">
+                            <div style="padding-top:12px;">
+                                <a href="tambah-pokemon.php">Tambah</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tr>
+            </table>
         </div>
     </div>
 

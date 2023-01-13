@@ -1,14 +1,14 @@
 
 body {
     /* background-image: url("../../src/images/blackboard-background.jpg"); */
-    background-image: url("../../src/images/background/Pokemon-Wallpaper-4K-High-Resolution.jpg");
+    background-image: url("../../src/images/background/Pokemon-Wallpaper-4K-Aesthetic.jpg");
     background-size: auto;
 }
 
 .box-container {
     /* border-style: solid; */
     display: flex;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 200px 20px 200px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
