@@ -29,10 +29,10 @@
         <div class="form-container">
             <div class="data-form">
                 <label for="nama">Nama Pokemon:</label>
-                <input type="text" placeholder="" name="nama" id="nama" value="<?= $pokemon["nama"]; ?>">
+                <input type="text" placeholder="" name="nama" id="nama" value="<?= $pokemon["nama"]; ?>" autocomplete="off">
 
                 <label for="tipe">Type Pokemon:</label>
-                <input type="text" placeholder="" name="tipe" id="tipe" value="<?= $pokemon["tipe"]; ?>">
+                <input type="text" placeholder="" name="tipe" id="tipe" value="<?= $pokemon["tipe"]; ?>" autocomplete="off">
 
                 <label for="deskripsi">Deskripsi Pokemon :</label>
                 <textarea name="deskripsi" id="deskripsi" cols="40" rows="1000000"><?= $pokemon["deskripsi"]; ?></textarea>

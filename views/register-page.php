@@ -23,10 +23,10 @@
         <h3>Register</h3>
 
         <label for="username">Username :</label>
-        <input type="text" placeholder="" name="username" id="username">
+        <input type="text" placeholder="" name="username" id="username" autocomplete="off">
 
         <label for="password">Password :</label>
-        <input type="password" placeholder="" name="password" id="password">
+        <input type="password" placeholder="" name="password" id="password" autocomplete="off">
 
         <label for="password2">konfirmasi password :</label>
         <input type="password" name="password2" id="password2">

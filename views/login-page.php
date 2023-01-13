@@ -23,10 +23,10 @@
         <h3>Login</h3>
 
         <label for="username">Username :</label>
-        <input type="text" placeholder="Masukan username..." name="username" id="username">
+        <input type="text" placeholder="Masukan username..." name="username" id="username" autocomplete="off">
 
         <label for="password">Password :</label>
-        <input type="password" placeholder="Masukan password.." name="password" id="password">
+        <input type="password" placeholder="Masukan password.." name="password" id="password" autocomplete="off">
 
         <label for="remember">Remember Me :</label>
         <input type="checkbox" placeholder="" name="remember" id="password">

@@ -34,7 +34,7 @@ require '../controllers/index-controller.php';
             <table width="80%" class="styled-table">
                 <tr>
                     <td><img src="../src/images/pokemon/<?= $pokemon["gambar"]; ?>" alt="<?= $pokemon["nama"]; ?>"
-                            width="200px"></td>
+                            height="200px"></td>
                 </tr>
                 <tr>
                     <td>
@@ -63,7 +63,6 @@ require '../controllers/index-controller.php';
             <a href="tambah-pokemon.php">Tambah</a>
         </div>
     </div>
-    <script src="scripts/script-index.js"></script>
 </body>
 
 </html>

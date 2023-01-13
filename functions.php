@@ -130,7 +130,7 @@ function ubahPokemon($data) {
 		$gambar = upload();
 	}
 
-	$query = "UPDATE pokemon SET nama = '$nama', deskripsi = '$deskripsi', tipe = '$type', hitpoint = '$hitpoint', damage = '$damage', gambar='$gambar WHERE id = '$id'";
+	$query = "UPDATE pokemon SET nama = '$nama', deskripsi = '$deskripsi', tipe = '$type', hitpoint = '$hitpoint', damage = '$damage', gambar='$gambar' WHERE id = '$id'";
 
 	mysqli_query($conn, $query);
 
