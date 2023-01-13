@@ -18,17 +18,17 @@ require '../controllers/index-controller.php';
 <body>
     <h1>Ini Index</h1>
     <a href="logout.php" class="logout">Logout</a>
+    <a href="cetak.php" target="_blank">Cetak</a>
+    <div class="box-form">
+    <form action="" method="post" class="form-cari">
+        <input type="text" id="keyword" name="keyword" size="40" autofocus placeholder="Cari Pokemon" autocomplete="off">
+        <div class="buttonHolder">
+            <input type="submit" name="cari" id="tombolCari" value="Cari" disabled>
+        </div>
+    </form>
+    </div>
 
-    <div class="box-container">
-        <!-- <div class="box">
-            <table border="solid" width="100%">
-                <tr><td><img src="../src/images/pokemon/pikachu.png" alt="pikachu" width="300px"></td></tr>
-                <tr><td>Pikachu</td></tr>
-                <tr><td>Listrik</td></tr>
-                <tr><td><button>Description</button></td></tr>
-            </table>
-        </div> -->
-
+    <div class="box-container" id="container">
         <?php foreach( $allPokemon as $pokemon ) : ?>
         <div class="box">
             <table width="80%" class="styled-table">
@@ -63,6 +63,8 @@ require '../controllers/index-controller.php';
             <a href="tambah-pokemon.php">Tambah</a>
         </div>
     </div>
+
+    <script src="scripts/script-index.js"></script>
 </body>
 
 </html>
